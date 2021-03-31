@@ -1,0 +1,74 @@
+/*
+ * Global application theme.
+ * Framework overrides and customization goes here.
+ */
+ 
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.navbar{
+    padding:0;
+    margin-bottom: 1rem;
+}
+
+.intro{
+    text-align: center;
+}
+
+.intro img{
+    height: 7rem;
+    margin-bottom: 10px;
+}
+
+.intro a{
+    color: white;
+    border-radius: 2.25rem;
+    padding: 0.375rem 3.75rem;
+    margin-top: 5%;
+}
+
+.intro .container{
+    max-width: 600px;
+}
+
+.spacing-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.toast-container .toast {
+    opacity: 1 !important;
+}
+
+.card{
+    border-radius: 4px;
+}
+
+.card-header{
+    background : none;
+    padding: 0.25rem 1.25rem;
+}
+
+.card-header .img-bound{
+    padding-left:calc(100%/4);
+    padding-right:calc(100%/4);
+}
+
+.card-header h5{
+    margin-top:5px;
+}
+
+.card-body{
+    padding:0;
+}
+
+.form-group{
+    margin-bottom: 0.5rem;
+}
